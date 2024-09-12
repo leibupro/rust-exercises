@@ -1,0 +1,13 @@
+[package]
+name = "methods"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lints.rust]
+unexpected_cfgs = "allow"
+unused = "allow"
+
+[lints.clippy]
+use_self = "deny"

@@ -1,0 +1,10 @@
+[package]
+name = "pangram"
+version = "0.1.0"
+edition = "2021"
+description = "yoinked from https://github.com/exercism/rust/tree/main/exercises/practice/pangram"
+
+[dependencies]
+
+[lints.rust]
+unexpected_cfgs = "allow"
