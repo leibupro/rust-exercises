@@ -16,6 +16,20 @@ fn main() {
     // You can optionally experiment here.
 }
 
+fn calculate_price_of_apples( qty: u16 ) -> u32
+{
+    let price_per_piece: u16 = if qty <= 40
+    {
+        2
+    }
+    else
+    {
+        1
+    };
+    let grand_total: u32 = ( qty * price_per_piece ).into();
+    grand_total
+}
+
 // Don't change the tests!
 #[cfg(test)]
 mod tests {
